@@ -72,13 +72,14 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  text-align: center;
+  text-align: left;
   padding: 10px 0;
 }
  
 header h1 {
   margin: 0;
   font-size: 1.8em;
+  text-align: left;
 }
  
 nav a {
