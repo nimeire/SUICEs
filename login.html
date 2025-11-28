@@ -69,7 +69,7 @@
   </div>
 
   <script>
-    // Defina aqui os usuários válidos
+   
     const usuariosValidos = [
       { nome: "millena@gmail.com", matricula: "1234" }
     ];
@@ -81,14 +81,14 @@
   const senha = document.getElementById("senha").value.trim();
   const mensagem = document.getElementById("mensagem");
 
-  // Validação obrigatória: campos não podem estar vazios
+  
   if (email === "" || senha === "") {
     mensagem.style.color = "red";
     mensagem.textContent = "Preencha todos os campos!";
     return;
   }
 
-  // Verifica se o login corresponde a algum usuário válido
+
   const usuarioEncontrado = usuariosValidos.find(user => 
     email.includes(user.nome) && senha === user.matricula
   );
